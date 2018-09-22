@@ -114,8 +114,8 @@ determine how fragments will actually be generated as illustrated on the image
 below:
 
 
-Mostly, OpenGL knows how to draw (ugly) points, (ugly) lines and ugly
-(triangles). For lines and triangles, there exist some variations depending if
+Mostly, OpenGL knows how to draw (ugly) points, (ugly) lines and (ugly)
+triangles. For lines and triangles, there exist some variations depending if
 you want to specify very precisely what to draw or if you can take advantage of
 some implicit assumptions. Let's consider lines first for example. Given a set
 of four vertices `(V₀,V₁,V₂,V₃)`, you migh want to draw segments
